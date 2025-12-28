@@ -1,0 +1,92 @@
+/* PAGE */
+.niz-appointments {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: calc(100vh - 120px);
+}
+
+/* TITLE */
+.niz-appointments-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* EMPTY */
+.niz-empty {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* LIST */
+.niz-appointments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* CARD */
+.niz-appointment-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* INFO */
+.niz-appointment-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.niz-appointment-info p {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 4px;
+}
+
+.niz-fee {
+  font-weight: 600;
+  color: #0b5ed7;
+}
+
+/* STATUS */
+.niz-status {
+  font-weight: 600;
+}
+
+.status-confirmed {
+  color: #2563eb;
+}
+
+.status-completed {
+  color: #16a34a;
+}
+
+.status-cancelled {
+  color: #dc2626;
+}
+
+/* ACTIONS */
+.niz-appointment-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .niz-appointment-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .niz-appointment-actions {
+    width: 100%;
+  }
+}

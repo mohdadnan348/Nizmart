@@ -1,0 +1,27 @@
+.niz-home {
+  padding: 24px;
+  background-color: #f9fafb;
+}
+
+.niz-home-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.niz-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .niz-home {
+    padding: 16px;
+  }
+
+  .niz-home-title {
+    font-size: 20px;
+  }
+}

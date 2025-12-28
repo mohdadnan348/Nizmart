@@ -1,0 +1,50 @@
+/* PAGE */
+.niz-profile {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: calc(100vh - 120px);
+}
+
+/* TITLE */
+.niz-profile-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* CARD */
+.niz-profile-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 18px;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* ROW */
+.niz-profile-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* ACTIONS */
+.niz-profile-actions {
+  display: flex;
+  gap: 12px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .niz-profile-card {
+    padding: 14px;
+  }
+
+  .niz-profile-actions {
+    flex-direction: column;
+  }
+}

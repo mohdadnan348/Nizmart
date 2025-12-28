@@ -1,0 +1,47 @@
+/* NAVBAR CONTAINER */
+.niz-navbar {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 24px;
+}
+
+/* LIST */
+.niz-navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+}
+
+/* LINKS */
+.niz-nav-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  padding: 6px 4px;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.niz-nav-link:hover {
+  color: #0b5ed7;
+}
+
+/* ACTIVE LINK */
+.niz-nav-link.active {
+  color: #0b5ed7;
+  font-weight: 600;
+  border-bottom: 2px solid #0b5ed7;
+  padding-bottom: 4px;
+}
+
+/* MOBILE SCROLL */
+@media (max-width: 768px) {
+  .niz-navbar {
+    padding: 8px 12px;
+  }
+}

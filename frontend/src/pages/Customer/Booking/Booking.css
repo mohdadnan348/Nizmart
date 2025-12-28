@@ -1,0 +1,88 @@
+/* PAGE */
+.niz-booking {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: calc(100vh - 120px);
+}
+
+/* TITLE */
+.niz-booking-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* CARD */
+.niz-booking-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  max-width: 600px;
+}
+
+/* SECTIONS */
+.niz-booking-section {
+  margin-bottom: 18px;
+}
+
+.niz-booking-section h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* ROW */
+.niz-row {
+  display: flex;
+  gap: 12px;
+}
+
+.niz-row input {
+  flex: 1;
+}
+
+/* INPUTS */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0b5ed7;
+}
+
+/* PAYMENT */
+.niz-payment {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+/* ACTION */
+.niz-booking-action {
+  margin-top: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .niz-booking-card {
+    padding: 16px;
+  }
+
+  .niz-row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,82 @@
+/* MAIN HEADER */
+.niz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* LEFT */
+.niz-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.niz-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.niz-logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0b5ed7;
+}
+
+/* CENTER */
+.niz-header-center {
+  flex: 1;
+  padding: 0 40px;
+}
+
+.niz-search {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  outline: none;
+}
+
+.niz-search:focus {
+  border-color: #0b5ed7;
+}
+
+/* RIGHT */
+.niz-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.niz-login-btn {
+  padding: 8px 18px;
+  background-color: #0b5ed7;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.niz-login-btn:hover {
+  background-color: #094bb5;
+}
+
+.niz-user-name {
+  font-weight: 600;
+  color: #111827;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .niz-header-center {
+    display: none;
+  }
+}
